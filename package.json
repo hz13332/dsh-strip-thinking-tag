@@ -1,0 +1,49 @@
+{
+  "name": "dsh-strip-thinking-tag",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin that strips a <thinking>...</thinking> note a model writes into the answer text channel, so it never reaches the chat or the session log.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "llm",
+    "stream",
+    "thinking",
+    "reasoning",
+    "filter"
+  ],
+  "license": "MIT",
+  "author": "hz13332",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hz13332/dsh-strip-thinking-tag.git"
+  },
+  "homepage": "https://github.com/hz13332/dsh-strip-thinking-tag#readme",
+  "bugs": {
+    "url": "https://github.com/hz13332/dsh-strip-thinking-tag/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

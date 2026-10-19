@@ -1,0 +1,5 @@
+# dsh-strip-thinking-tag: 持久化组合条目。
+# 安装后一行同时挂载宿主侧的 llm/stream 过滤器。
+- insert:
+    - id: strip-thinking-tag
+      name: dsh-strip-thinking-tag
