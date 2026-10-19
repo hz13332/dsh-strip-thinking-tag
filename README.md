@@ -4,6 +4,10 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) pl
 
 English | [中文](README.zh.md)
 
+![Before and after: the answer text carries the note, then the plugin strips it](assets/before-after.png)
+
+<sub>Illustration of the text-channel transformation — not a UI screenshot.</sub>
+
 ## The problem
 
 `dsh` keeps reasoning and answer text in two separate channels. A well-behaved model streams its chain of thought as `reasoning` blocks, which the UI shows in a collapsed disclosure and never mixes into the reply.

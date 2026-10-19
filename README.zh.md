@@ -4,6 +4,10 @@
 
 [English](README.md) | 中文
 
+![前后对照：正文里带着 `<thinking>` 小抄，被插件摘掉之后](assets/before-after.png)
+
+<sub>正文通道变换的效果示意 —— 不是界面截图。</sub>
+
 ## 问题
 
 `dsh` 把「思考」和「正文」分成两条独立通道。规矩的模型把思维链走 `reasoning` 通道，界面折叠显示，永远不混进回复。
